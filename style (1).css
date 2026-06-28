@@ -5,15 +5,15 @@
 :root {
   /* الخلفيات */
   --bg: #ffffff;
-  --bg-card: #f9fafb;
-  --bg-section: #ffffff;
+  --bg-card: #f8fafc;
+  --bg-section: #f1f5f9;
 
-  /* اللون الأساسي (Brand / Primary) */
+  /* اللون الأساسي (أزرق) */
   --primary: #2563eb;
   --primary-light: #3b82f6;
   --primary-hover: #1d4ed8;
 
-  /* ألوان إضافية */
+  /* لون خفيف */
   --secondary: #e0edff;
 
   /* واتساب */
@@ -22,11 +22,11 @@
 
   /* النصوص */
   --text: #0f172a;
-  --text-muted: rgba(15, 23, 42, 0.6);
-  --text-label: rgba(15, 23, 42, 0.5);
+  --text-muted: #64748b;
+  --text-label: #94a3b8;
 
   /* الحدود */
-  --border: rgba(0, 0, 0, 0.1);
+  --border: #e2e8f0;
 
   /* الحواف */
   --radius: 1rem;
@@ -34,7 +34,7 @@
   --radius-full: 9999px;
 
   /* الظلال */
-  --shadow-card: 0 4px 32px rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 4px 20px rgba(0,0,0,0.05);
 
   /* الأنيميشن */
   --transition: 0.3s ease;
