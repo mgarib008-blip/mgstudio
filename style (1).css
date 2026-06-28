@@ -3,22 +3,40 @@
    =========================== */
 
 :root {
-  --bg: #050b18;
-  --bg-card: #f1f5f9;
+  /* الخلفيات */
+  --bg: #ffffff;
+  --bg-card: #f9fafb;
   --bg-section: #ffffff;
-  --blue: #2563eb;
-  --blue-light: #3b82f6;
-  --blue-hover: #1d4ed8;
+
+  /* اللون الأساسي (Brand / Primary) */
+  --primary: #2563eb;
+  --primary-light: #3b82f6;
+  --primary-hover: #1d4ed8;
+
+  /* ألوان إضافية */
+  --secondary: #e0edff;
+
+  /* واتساب */
   --green-wa: #25d366;
   --green-wa-hover: #20bd5a;
-  --text: #f1f5f9;
-  --text-muted: rgba(241,245,249,0.5);
-  --text-label: rgba(241,245,249,0.6);
-  --border: rgba(37,99,235,0.18);
+
+  /* النصوص */
+  --text: #0f172a;
+  --text-muted: rgba(15, 23, 42, 0.6);
+  --text-label: rgba(15, 23, 42, 0.5);
+
+  /* الحدود */
+  --border: rgba(0, 0, 0, 0.1);
+
+  /* الحواف */
   --radius: 1rem;
   --radius-sm: 0.5rem;
   --radius-full: 9999px;
-  --shadow-card: 0 4px 32px rgba(0,0,0,0.4);
+
+  /* الظلال */
+  --shadow-card: 0 4px 32px rgba(0, 0, 0, 0.1);
+
+  /* الأنيميشن */
   --transition: 0.3s ease;
 }
 
